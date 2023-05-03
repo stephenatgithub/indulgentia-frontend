@@ -223,7 +223,19 @@ export default function Home() {
             </form>
           </div>
         ) : (
-          <button onClick={connectWallet}> Connect your wallet </button>
+          <div>
+          <button onClick={connectWallet}> Connect your wallet on the Sepolia testnet </button>
+          <br/>
+          <br/>
+          <br/>
+          <a
+            href="https://sepoliafaucet.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Sepolia FAUCET
+          </a>
+          </div>
         )}
       </main>
 
